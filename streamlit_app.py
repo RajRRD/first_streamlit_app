@@ -36,3 +36,5 @@ streamlit.dataframe(my_data_rows)
 streamlit.write('Thanks for adding',add_my_fruit)
 
 my_cur.executive("insert into fruit_load_list_values('from streamlit')")
+
+streamlit.stop()
